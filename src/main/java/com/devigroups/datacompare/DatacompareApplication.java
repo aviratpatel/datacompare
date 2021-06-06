@@ -1,0 +1,13 @@
+package com.devigroups.datacompare;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DatacompareApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DatacompareApplication.class, args);
+	}
+
+}
