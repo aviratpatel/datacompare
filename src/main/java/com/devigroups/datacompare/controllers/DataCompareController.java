@@ -78,6 +78,7 @@ public class DataCompareController {
         Optional<List<ReplenishDataOutputDTO>> optionalReplenishDataOutputDTOS
                 = replenishDataOutputDTOList.size() == 0 ? Optional.empty()
                 : Optional.of(replenishDataOutputDTOList);
+        System.out.println("Completed...s");
         return optionalReplenishDataOutputDTOS;
     }
 
@@ -89,7 +90,5 @@ public class DataCompareController {
 //        ReplenishDataOutputCopyDTO replenishDataOutputCopyDTO = DataCompareService.CompareObjectSample(repData1, repData2);
 //        return replenishDataOutputCopyDTO;
 //    }
-
-
 
   }
